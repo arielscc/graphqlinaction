@@ -1,0 +1,19 @@
+{
+  "name": "crmgraphql",
+  "version": "1.0.0",
+  "description": "aprendiendo graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "Graphql"
+  ],
+  "author": "Ariel Chura",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.24.0",
+    "graphql": "^15.5.0"
+  }
+}
