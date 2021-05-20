@@ -23,6 +23,7 @@ const resolvers = {
   Query: {
     obtenerCursos: (_, { tec }, ctx, info) => {
       // Logica para consultar la base de datos
+
       const resultado = cursos.filter(
         curso => curso.tecnologia === tec.tecnologia
       );
