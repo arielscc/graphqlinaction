@@ -1,7 +1,10 @@
 //resolvers -> son un objeto
 const resolvers = {
   Query: {
-    obtenerUsuario: () => 'ARiel',
+    obtenerCurso: () => 'un curso!',
+  },
+  Mutation: {
+    nuevoUsuario: () => 'este es el usuario',
   },
 };
 
